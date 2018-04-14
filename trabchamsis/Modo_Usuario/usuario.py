@@ -5,36 +5,42 @@ sys.path.insert(0, os.getcwd())  # adds current dir to import from
 # from Modo_Nucleo.nucleo import ReadFromToPosition
 from Modo_Lib.lib import *
 
-
 userName = ''
 
 
 def Menu():  # Your menu design here
-
+    global userName
     userName = input('Enter your name:')
-
-    choice = ''
-    while choice is not '0':
-
+    selection = ''
+    while selection is not '0':
         print(8 * '-', 'MENU', 8 * '-', '\n',
-              '0. Exit', '\n',
-              '1. Write', '\n',
-              '2. Read', '\n',
+              '0. Sair', '\n',
+              '1. Escrita', '\n',
+              '2. Leitura', '\n',
               22 * '-')
-        choice = input('Enter your choice [1-5]: ')
+        selection = input('Sua escolha (0-2): ')
+        if selection == '1':
+            selection = input('Digite a informacao: ')
+            UserWriteEndFile(selection)
 
-        if choice == '1':
-            print('Menu 1 has been selected')
-        elif choice == '2':
-            print('Menu 2 has been selected')
-        elif choice == '3':
+        elif selection == '2':
+            print(5 * '-', 'Leitura', 5 * '-', '\n',
+                  '0. Sair', '\n',
+                  '1. Ler dentro de um intervalo', '\n',
+                  '2. Ler todo o arquivo', '\n',
+                  22 * '-')
+
+            selection = input('Sua Escolha (0-2): ')
+                if(selection == '2'):
+
+        elif selection == '3':
             print('Menu 3 has been selected')
-        elif choice == '4':
+        elif selection == '4':
             print('Menu 4 has been selected')
-        elif choice == '0':
+        elif selection == '0':
             print('Menu 5 has been selected')
         else:
-            input('Wrong option selection. Enter any key to try again..')
+            input('Nada selecionado, tente novamente...')
 
 
 if __name__ == '__main__':

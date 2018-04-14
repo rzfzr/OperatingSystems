@@ -11,6 +11,15 @@ isNucleo = False  # flag for usermode
 isOn = False
 
 
+jobs = []  # pool of jobs
+
+
+class Job:
+    # userName = ''
+    def __init__(self, userName):
+        self.userName = userName
+
+
 def WriteEndFile(message):  # append at the end
 
     if(CheckAuth()):
@@ -42,22 +51,29 @@ def TestCall():
 def SwitchSystem(on):
     if(on):
         print("Starting at", datetime.datetime.now().strftime("%H:%M:%S"))
-        # global isOn = True
+        global isOn
+        isOn = True
         global isNucleo
         isNucleo = True
-        # print('Modo Nucleo:', isNucleo)
-        TestCall()
-        while True:
-            print('Checking at', datetime.datetime.now().strftime('%H:%M:%S'),
-                  'No tasks yet')
-            time.sleep(3)
-            TestCall()
-            sys.stdout.flush()  # required to run on vscode terminal
+        print('(Nucleo) Modo Nucleo:', isNucleo)
+        Cycle()
+
+
+def Cycle():
+    counter = 0
+    while (counter < 5):
+        # counter += 1
+        print('Checking at', datetime.datetime.now().strftime('%H:%M:%S'),
+              'Number of jobs: ', len(jobs))
+
+        time.sleep(3)
+        # TestCall()
+        sys.stdout.flush()  # required to run on vscode terminal
 
 
 if __name__ == '__main__':
     # isNucleo = True
-    # print('Modo Nucleo:', isNucleo)
+    print('(Nucleo) Modo Nucleo:', isNucleo)
 
     # SwitchSystem(True)
     # TestCall()
