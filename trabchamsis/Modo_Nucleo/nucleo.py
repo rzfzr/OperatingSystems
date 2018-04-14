@@ -48,7 +48,7 @@ def TestCall():
     print('testCalled as nucleo: ', isNucleo)
 
 
-def SwitchSystem(on):
+def SwitchSystem(on=True):
     if(on):
         print("Starting at", datetime.datetime.now().strftime("%H:%M:%S"))
         global isOn
@@ -59,16 +59,30 @@ def SwitchSystem(on):
         Cycle()
 
 
+testVar = 'untested'
+print('testing')
+
+
+def ChangeTestVar(message):
+    print('changing testVar')
+    global testVar
+    testVar = message
+
+
 def Cycle():
     counter = 0
-    while (counter < 5):
-        # counter += 1
-        print('Checking at', datetime.datetime.now().strftime('%H:%M:%S'),
-              'Number of jobs: ', len(jobs))
+    # while (counter < 5):
+    # counter += 1
+    print('Checking at', datetime.datetime.now().strftime('%H:%M:%S'),
+          'Number of jobs: ', len(jobs))
 
-        time.sleep(3)
-        # TestCall()
-        sys.stdout.flush()  # required to run on vscode terminal
+    # job = Job('Teste')
+    # jobs.append(job)
+    time.sleep(3)
+    # TestCall()
+    sys.stdout.flush()  # required to run on vscode terminal when looping
+
+    Cycle()
 
 
 if __name__ == '__main__':

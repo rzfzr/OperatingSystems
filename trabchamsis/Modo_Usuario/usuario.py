@@ -31,7 +31,8 @@ def Menu():  # Your menu design here
                   22 * '-')
 
             selection = input('Sua Escolha (0-2): ')
-                if(selection == '2'):
+            if(selection == '2'):
+                UserReadFromFile()
 
         elif selection == '3':
             print('Menu 3 has been selected')
