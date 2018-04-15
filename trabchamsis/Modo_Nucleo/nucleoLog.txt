@@ -477,3 +477,99 @@ Checking at 00:13:29 Number of jobs: 0
 Ending at 00:13:29 
 
 
+Starting at 09:48:50 
+(Nucleo) Modo Nucleo: True
+Checking at 09:48:50 Number of jobs: 1
+Processing job from teste 
+Action executed, user authorized
+Checking at 09:48:55 Number of jobs: 0
+Checking at 09:49:00 Number of jobs: 0
+Ending at 09:49:01 
+
+
+Starting at 09:49:18 
+(Nucleo) Modo Nucleo: True
+Checking at 09:49:18 Number of jobs: 1
+Processing job from root 
+Action executed, user authorized
+Checking at 09:49:23 Number of jobs: 0
+Checking at 09:49:28 Number of jobs: 0
+Checking at 09:49:33 Number of jobs: 0
+Checking at 09:49:38 Number of jobs: 0
+Checking at 09:49:43 Number of jobs: 0
+Checking at 09:49:48 Number of jobs: 0
+Checking at 09:49:53 Number of jobs: 0
+Checking at 09:49:58 Number of jobs: 0
+Checking at 09:50:03 Number of jobs: 0
+Checking at 09:50:08 Number of jobs: 0
+Checking at 09:50:13 Number of jobs: 0
+Checking at 09:50:18 Number of jobs: 0
+Checking at 09:50:23 Number of jobs: 0
+Checking at 09:50:28 Number of jobs: 0
+Checking at 09:50:33 Number of jobs: 0
+Checking at 09:50:38 Number of jobs: 0
+Checking at 09:50:43 Number of jobs: 0
+Checking at 09:50:48 Number of jobs: 0
+Checking at 09:50:53 Number of jobs: 0
+Checking at 09:50:58 Number of jobs: 0
+Checking at 09:51:03 Number of jobs: 0
+Ending at 09:51:04 
+
+
+Starting at 09:51:31 
+(Nucleo) Modo Nucleo: True
+Checking at 09:51:31 Number of jobs: 1
+Processing job from root 
+Action executed, user authorized
+Checking at 09:51:36 Number of jobs: 0
+Checking at 09:51:41 Number of jobs: 0
+Checking at 09:51:46 Number of jobs: 0
+Checking at 09:51:51 Number of jobs: 0
+Checking at 09:51:56 Number of jobs: 0
+Checking at 09:52:01 Number of jobs: 0
+Checking at 09:52:06 Number of jobs: 0
+Checking at 09:52:11 Number of jobs: 0
+Checking at 09:52:16 Number of jobs: 0
+Checking at 09:52:21 Number of jobs: 0
+Checking at 09:52:26 Number of jobs: 0
+Checking at 09:52:31 Number of jobs: 0
+Ending at 09:52:31 
+
+
+Starting at 09:52:45 
+(Nucleo) Modo Nucleo: True
+Checking at 09:52:45 Number of jobs: 1
+Processing job from root 
+Action executed, user authorized
+Checking at 09:52:50 Number of jobs: 0
+Checking at 09:52:55 Number of jobs: 0
+Checking at 09:53:00 Number of jobs: 0
+Checking at 09:53:05 Number of jobs: 0
+Checking at 09:53:10 Number of jobs: 0
+Checking at 09:53:15 Number of jobs: 0
+Checking at 09:53:20 Number of jobs: 0
+Ending at 09:53:20 
+
+
+Starting at 09:53:29 
+(Nucleo) Modo Nucleo: True
+Checking at 09:53:29 Number of jobs: 1
+Interrupted -> Processing job from root 
+Action executed, user authorized
+Checking at 09:53:34 Number of jobs: 0
+Checking at 09:53:39 Number of jobs: 0
+Checking at 09:53:44 Number of jobs: 0
+Checking at 09:53:49 Number of jobs: 0
+Checking at 09:53:54 Number of jobs: 0
+Checking at 09:53:59 Number of jobs: 0
+Checking at 09:54:04 Number of jobs: 0
+Checking at 09:54:09 Number of jobs: 0
+Checking at 09:54:14 Number of jobs: 0
+Checking at 09:54:19 Number of jobs: 0
+Checking at 09:54:24 Number of jobs: 0
+Checking at 09:54:29 Number of jobs: 0
+Checking at 09:54:34 Number of jobs: 0
+Checking at 09:54:39 Number of jobs: 0
+Ending at 09:54:41 
+
+

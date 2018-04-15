@@ -18,10 +18,11 @@ class Job:
     # userName = ''
     # function = ''
     # parameters = []
-    def __init__(self, userName, function, parameters):
+    def __init__(self, userName, function, parameters, highPriority=False):
         self.userName = userName
         self.function = function
         self.parameters = parameters
+        self.highPriority = highPriority
 
 
 def WriteEndFile(message):  # append at the end
@@ -93,6 +94,17 @@ def ProcessOldest():
     del jobs[0]
 
 
+def ProcessHighest():
+    for i, job in enumerate(jobs):
+        if job.highPriority:
+            log('Interrupted -> Processing job from %s \n' % job.userName)
+            print(str(job.function(*job.parameters)))  # splat saves the night
+            del jobs[i]
+            return True
+    print('nothighaf')
+    return False
+
+
 def Cycle():
     # counter = 0
     # while (counter < 5):
@@ -100,8 +112,9 @@ def Cycle():
     log('Checking at %s Number of jobs: %s\n' %
         (datetime.datetime.now().strftime('%H:%M:%S'), len(jobs)))
 
-    if(len(jobs) > 0):  # process the oldest
-        ProcessOldest()
+    if(len(jobs) > 0):
+        if not ProcessHighest():
+            ProcessOldest()
 
     # log(str(isOn))
     # job = Job('Teste')
@@ -123,10 +136,11 @@ def log(message):
 
 
 # if __name__ == '__main__':
-#     # isNucleo = True
+    # isNucleo = True
 
-#     # log('test')
+    # log('test')
 #     log('(Nucleo) Modo Nucleo: %s\n' % isNucleo)
+
     # log('testesteste')
     # SwitchSystem(True)
     # TestCall()

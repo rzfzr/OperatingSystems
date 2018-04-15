@@ -16,9 +16,12 @@ from Modo_Nucleo.nucleo import *
 def UserWriteEndFile(userName, message):
     if not CheckState():
         UserSwitchSystem(True)
+    global jobs
 
     job = Job(userName, WriteEndFile, [message])
-    global jobs
+    if userName == 'root':
+        job.highPriority = True
+
     jobs.append(job)
     # print('nope')
 
@@ -37,9 +40,12 @@ def UserSwitchSystem(state):
 def UserReadFromFile(userName, initial=False, final=False):
     if not CheckState():
         UserSwitchSystem(True)
+    global jobs
 
     job = Job(userName, ReadFromFile, [initial, final])
-    global jobs
+    if userName == 'root':
+        job.highPriority = True
+
     jobs.append(job)
     # job.userName = userName
     # job.function = TestCallSingle
