@@ -216,3 +216,264 @@ Checking at 23:17:47 Number of jobs: 0
 Ending at 23:17:51 
 
 
+Starting at 23:24:42 
+(Nucleo) Modo Nucleo: True
+Checking at 23:24:42 Number of jobs: 0
+Checking at 23:24:47 Number of jobs: 0
+Checking at 23:24:52 Number of jobs: 0
+Checking at 23:24:57 Number of jobs: 0
+Checking at 23:25:02 Number of jobs: 0
+Checking at 23:25:07 Number of jobs: 0
+Checking at 23:25:12 Number of jobs: 0
+Starting at 23:32:32 
+(Nucleo) Modo Nucleo: True
+Checking at 23:32:32 Number of jobs: 1
+Processing job from rafael 
+Checking at 23:32:37 Number of jobs: 0
+Ending at 23:32:41 
+
+
+Starting at 23:36:49 
+(Nucleo) Modo Nucleo: True
+Checking at 23:36:49 Number of jobs: 1
+Processing job from teste 
+Ending at 23:37:19 
+
+
+Starting at 23:37:25 
+(Nucleo) Modo Nucleo: True
+Checking at 23:37:25 Number of jobs: 1
+Processing job from teste 
+Ending at 23:37:30 
+
+
+Starting at 23:38:54 
+(Nucleo) Modo Nucleo: True
+Checking at 23:38:54 Number of jobs: 1
+Processing job from teste 
+Checking at 23:38:59 Number of jobs: 0
+Checking at 23:39:04 Number of jobs: 1
+Processing job from teste 
+Checking at 23:39:09 Number of jobs: 0
+Checking at 23:39:14 Number of jobs: 0
+Checking at 23:39:19 Number of jobs: 0
+Checking at 23:39:24 Number of jobs: 0
+Checking at 23:39:29 Number of jobs: 0
+Checking at 23:39:34 Number of jobs: 0
+Checking at 23:39:40 Number of jobs: 0
+Checking at 23:39:45 Number of jobs: 0
+Checking at 23:39:50 Number of jobs: 0
+Checking at 23:39:55 Number of jobs: 0
+Checking at 23:40:00 Number of jobs: 0
+Checking at 23:40:05 Number of jobs: 0
+Checking at 23:40:10 Number of jobs: 0
+Checking at 23:40:15 Number of jobs: 0
+Checking at 23:40:20 Number of jobs: 0
+Checking at 23:40:25 Number of jobs: 0
+Checking at 23:40:30 Number of jobs: 0
+Checking at 23:40:35 Number of jobs: 0
+Checking at 23:40:40 Number of jobs: 0
+Checking at 23:40:45 Number of jobs: 0
+Checking at 23:40:50 Number of jobs: 0
+Checking at 23:40:55 Number of jobs: 0
+Checking at 23:41:00 Number of jobs: 0
+Checking at 23:41:05 Number of jobs: 0
+Checking at 23:41:10 Number of jobs: 0
+Checking at 23:41:15 Number of jobs: 0
+Starting at 23:41:29 
+(Nucleo) Modo Nucleo: True
+Checking at 23:41:29 Number of jobs: 1
+Processing job from teste 
+Checking at 23:41:34 Number of jobs: 2
+Processing job from teste 
+Ending at 23:41:37 
+
+
+Starting at 23:48:19 
+(Nucleo) Modo Nucleo: True
+Checking at 23:48:19 Number of jobs: 1
+Processing job from teste 
+Action executed, user authorized
+Checking at 23:48:24 Number of jobs: 0
+Checking at 23:48:30 Number of jobs: 0
+Checking at 23:48:35 Number of jobs: 0
+Checking at 23:48:40 Number of jobs: 0
+Checking at 23:48:45 Number of jobs: 0
+Checking at 23:48:50 Number of jobs: 0
+Checking at 23:48:55 Number of jobs: 0
+Checking at 23:49:00 Number of jobs: 0
+Checking at 23:49:05 Number of jobs: 0
+Ending at 23:49:07 
+
+
+Starting at 23:51:34 
+(Nucleo) Modo Nucleo: True
+Checking at 23:51:34 Number of jobs: 1
+Processing job from letsgo 
+Action executed, user authorized
+Ending at 23:53:10 
+
+
+Starting at 23:53:25 
+(Nucleo) Modo Nucleo: True
+Checking at 23:53:25 Number of jobs: 1
+Processing job from lalala 
+Action executed, user authorized
+Checking at 23:53:30 Number of jobs: 0
+Checking at 23:53:35 Number of jobs: 0
+Checking at 23:53:40 Number of jobs: 1
+Processing job from lalala 
+Action executed, user authorized
+Checking at 23:53:45 Number of jobs: 0
+Checking at 23:53:50 Number of jobs: 1
+Processing job from lalala 
+Action executed, user authorized
+Checking at 23:53:55 Number of jobs: 0
+Checking at 23:54:00 Number of jobs: 0
+Checking at 23:54:05 Number of jobs: 0
+Checking at 23:54:10 Number of jobs: 0
+Checking at 23:54:15 Number of jobs: 0
+Checking at 23:54:20 Number of jobs: 0
+Checking at 23:54:25 Number of jobs: 0
+Checking at 23:54:30 Number of jobs: 0
+Checking at 23:54:35 Number of jobs: 0
+Checking at 23:54:40 Number of jobs: 0
+Checking at 23:54:45 Number of jobs: 0
+Checking at 23:54:50 Number of jobs: 0
+Checking at 23:54:55 Number of jobs: 0
+Checking at 23:55:00 Number of jobs: 0
+Checking at 23:55:05 Number of jobs: 0
+Checking at 23:55:10 Number of jobs: 0
+Checking at 23:55:15 Number of jobs: 0
+Ending at 23:55:16 
+
+
+Starting at 23:55:26 
+(Nucleo) Modo Nucleo: True
+Checking at 23:55:26 Number of jobs: 1
+Processing job from teste 
+Action executed, user authorized
+Checking at 23:55:31 Number of jobs: 0
+Checking at 23:55:36 Number of jobs: 1
+Processing job from teste 
+Action executed, user authorized
+Checking at 23:55:41 Number of jobs: 0
+Checking at 23:55:46 Number of jobs: 0
+Checking at 23:55:51 Number of jobs: 0
+Checking at 23:55:56 Number of jobs: 0
+Checking at 23:56:01 Number of jobs: 0
+Checking at 23:56:06 Number of jobs: 0
+Ending at 23:56:09 
+
+
+Starting at 23:56:16 
+(Nucleo) Modo Nucleo: True
+Checking at 23:56:16 Number of jobs: 1
+Processing job from lala 
+Action executed, user authorized
+Checking at 23:56:21 Number of jobs: 0
+Checking at 23:56:26 Number of jobs: 1
+Processing job from lala 
+Action executed, user authorized
+Checking at 23:56:31 Number of jobs: 0
+Checking at 23:56:36 Number of jobs: 0
+Checking at 23:56:41 Number of jobs: 0
+Checking at 23:56:46 Number of jobs: 0
+Checking at 23:56:51 Number of jobs: 0
+Checking at 23:56:56 Number of jobs: 0
+Checking at 23:57:01 Number of jobs: 0
+Checking at 23:57:06 Number of jobs: 0
+Ending at 23:57:07 
+
+
+Starting at 23:57:18 
+(Nucleo) Modo Nucleo: True
+Checking at 23:57:18 Number of jobs: 1
+Processing job from leman 
+Action executed, user authorized
+Checking at 23:57:23 Number of jobs: 0
+Checking at 23:57:28 Number of jobs: 0
+Checking at 23:57:33 Number of jobs: 1
+Processing job from leman 
+Action executed, user authorized
+Checking at 23:57:38 Number of jobs: 0
+Checking at 23:57:43 Number of jobs: 0
+Checking at 23:57:48 Number of jobs: 0
+Checking at 23:57:53 Number of jobs: 0
+Starting at 00:07:57 
+(Nucleo) Modo Nucleo: True
+Checking at 00:07:58 Number of jobs: 1
+Processing job from gogogo 
+Starting at 00:09:09 
+(Nucleo) Modo Nucleo: True
+Checking at 00:09:09 Number of jobs: 1
+Processing job from gogogog 
+Action executed, user authorized
+Checking at 00:09:15 Number of jobs: 0
+Checking at 00:09:20 Number of jobs: 0
+Checking at 00:09:25 Number of jobs: 0
+Checking at 00:09:30 Number of jobs: 0
+Checking at 00:09:35 Number of jobs: 0
+Checking at 00:09:40 Number of jobs: 0
+Checking at 00:09:45 Number of jobs: 0
+Starting at 00:09:58 
+(Nucleo) Modo Nucleo: True
+Checking at 00:09:58 Number of jobs: 1
+Processing job from lalala 
+Action executed, user authorized
+Checking at 00:10:03 Number of jobs: 0
+Checking at 00:10:08 Number of jobs: 0
+Checking at 00:10:13 Number of jobs: 0
+Starting at 00:10:32 
+(Nucleo) Modo Nucleo: True
+Checking at 00:10:32 Number of jobs: 1
+Processing job from laland 
+Action executed, user authorized
+Checking at 00:10:37 Number of jobs: 0
+Checking at 00:10:42 Number of jobs: 0
+Checking at 00:10:47 Number of jobs: 0
+Checking at 00:10:52 Number of jobs: 0
+Checking at 00:10:57 Number of jobs: 0
+Checking at 00:11:02 Number of jobs: 0
+Checking at 00:11:07 Number of jobs: 0
+Checking at 00:11:12 Number of jobs: 1
+Processing job from laland 
+Action executed, user authorized
+Checking at 00:11:17 Number of jobs: 0
+Checking at 00:11:22 Number of jobs: 0
+Checking at 00:11:27 Number of jobs: 0
+Checking at 00:11:32 Number of jobs: 0
+Checking at 00:11:37 Number of jobs: 0
+Checking at 00:11:43 Number of jobs: 0
+Checking at 00:11:48 Number of jobs: 0
+Checking at 00:11:53 Number of jobs: 0
+Checking at 00:11:58 Number of jobs: 1
+Processing job from laland 
+Action executed, user authorized
+Checking at 00:12:03 Number of jobs: 0
+Checking at 00:12:08 Number of jobs: 0
+Checking at 00:12:13 Number of jobs: 0
+Checking at 00:12:18 Number of jobs: 0
+Checking at 00:12:23 Number of jobs: 0
+Checking at 00:12:28 Number of jobs: 0
+Checking at 00:12:33 Number of jobs: 0
+Checking at 00:12:38 Number of jobs: 0
+Checking at 00:12:43 Number of jobs: 0
+Checking at 00:12:48 Number of jobs: 0
+
+
+
+
+Starting at 00:13:14 
+(Nucleo) Modo Nucleo: True
+Checking at 00:13:14 Number of jobs: 1
+Processing job from ttetete 
+Action executed, user authorized
+Checking at 00:13:19 Number of jobs: 0
+Checking at 00:13:24 Number of jobs: 1
+Processing job from ttetete 
+Action executed, user authorized
+Checking at 00:13:29 Number of jobs: 0
+Ending at 00:13:29 
+
+

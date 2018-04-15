@@ -19,29 +19,36 @@ def Menu():  # Your menu design here
               '1. Escrita', '\n',
               '2. Leitura', '\n',
               22 * '-')
-        selection = input('Sua escolha (0-2): ')
-        if selection == '1':
+        selection = input('Sua escolha: ')
+
+        if selection == '0':
+            print('Saindo')
+            UserSwitchSystem(False)
+
+        elif selection == '1':
             selection = input('Digite a informacao: ')
-            UserWriteEndFile(selection)
+            UserWriteEndFile(userName, selection)
 
         elif selection == '2':
             print(5 * '-', 'Leitura', 5 * '-', '\n',
-                  '0. Sair', '\n',
+                  '9. Voltar', '\n',
                   '1. Ler dentro de um intervalo', '\n',
                   '2. Ler todo o arquivo', '\n',
                   22 * '-')
-
-            selection = input('Sua Escolha (0-2): ')
-            if(selection == '2'):
+            selection = input('Sua Escolha: ')
+            if(selection == '9'):
+                print('Voltando\n')
+            elif(selection == '1'):
+                initial = input('Posicao initial: ')
+                final = input('Posicao final: ')
+                UserReadFromFile(userName, int(initial), int(final)+1)
+            elif(selection == '2'):
                 UserReadFromFile(userName)
 
         elif selection == '3':
             print('Menu 3 has been selected')
         elif selection == '4':
             print('Menu 4 has been selected')
-        elif selection == '0':
-            print('Saindo')
-            UserSwitchSystem(False)
         else:
             input('Nada selecionado, tente novamente: ')
 

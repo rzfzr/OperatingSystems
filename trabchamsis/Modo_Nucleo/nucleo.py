@@ -1,31 +1,34 @@
-import sys
-import time
-import random
-import os
-import multiprocessing
-import datetime
+import sys  # for custom paths
+import time  # for waits
+# import random
+# import os
+# import multiprocessing
+import datetime  # for logging time
 
 logPath = "Modo_Nucleo/nucleoLog.txt"
 binaryPath = "Modo_Nucleo/binary.txt"
 isNucleo = False  # flag for usermode
-isOn = False
+isOn = False  # flag for system state
 
 
 jobs = []  # pool of jobs
 
 
 class Job:
-    userName = ''
-    function = ''
-    attributes = []
-    # def __init__(self, userName):
-    #     self.userName = userName
+    # userName = ''
+    # function = ''
+    # parameters = []
+    def __init__(self, userName, function, parameters):
+        self.userName = userName
+        self.function = function
+        self.parameters = parameters
 
 
 def WriteEndFile(message):  # append at the end
     if(CheckAuth()):
         file = open(binaryPath, "a")
         file.write(message)
+        return 'Escrito com sucesso'
 
 
 def ReadFromFile(initial=False, final=False):
@@ -33,23 +36,22 @@ def ReadFromFile(initial=False, final=False):
         file = open(binaryPath, "r").read()
         if(not initial and not final):  # if no specified positions then return whole file
             return file
+        # print("ini:", initial, "final:", final)
         return file[initial:final]
 
 
 def CheckAuth():
     if(isNucleo):
         log('Action executed, user authorized\n')
-        print('Action executed, user authorized')
+        print('\nAction executed, user authorized')
         return True
     log('Action executed, user authorized\n')
-    print('Action denied, user not authorized!')
+    print('\nAction denied, user not authorized!')
     return False
-
 
 # def TestCall(ini, fini):
 #     # print('testCalled as nucleo: ', isNucleo)
 #     print('tested x: ', ini, 'y: ', fini)
-
 
 # def TestCallSingle(fini):
 #     # print('testCalled as nucleo: ', isNucleo)
@@ -87,7 +89,7 @@ def ProcessOldest():
     # global jobs
     job = jobs[0]
     log('Processing job from %s \n' % job.userName)
-    print(str(job.function(*job.attributes)))  # splat saves the night
+    print(str(job.function(*job.parameters)))  # splat saves the night
     del jobs[0]
 
 
@@ -120,11 +122,11 @@ def log(message):
     #     time.sleep(1)
 
 
-if __name__ == '__main__':
-    # isNucleo = True
+# if __name__ == '__main__':
+#     # isNucleo = True
 
-    # log('test')
-    log('(Nucleo) Modo Nucleo: %s\n' % isNucleo)
+#     # log('test')
+#     log('(Nucleo) Modo Nucleo: %s\n' % isNucleo)
     # log('testesteste')
     # SwitchSystem(True)
     # TestCall()

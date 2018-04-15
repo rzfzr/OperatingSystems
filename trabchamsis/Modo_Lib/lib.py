@@ -13,8 +13,14 @@ from Modo_Nucleo.nucleo import *
 #     userName = newName
 
 
-def UserWriteEndFile(message):
-    print('nope')
+def UserWriteEndFile(userName, message):
+    if not CheckState():
+        UserSwitchSystem(True)
+
+    job = Job(userName, WriteEndFile, [message])
+    global jobs
+    jobs.append(job)
+    # print('nope')
 
 
 def UserSwitchSystem(state):
@@ -32,12 +38,12 @@ def UserReadFromFile(userName, initial=False, final=False):
     if not CheckState():
         UserSwitchSystem(True)
 
-    job = Job()
-    job.userName = userName
-    job.function = TestCallSingle
-    job.attributes = [44]
+    job = Job(userName, ReadFromFile, [initial, final])
     global jobs
     jobs.append(job)
+    # job.userName = userName
+    # job.function = TestCallSingle
+    # job.parameters = [44]
     #  print('added job')
 
 
