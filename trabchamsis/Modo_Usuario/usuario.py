@@ -40,6 +40,7 @@ def Menu():  # Your menu design here
             print('Menu 4 has been selected')
         elif selection == '0':
             print('Saindo')
+            UserSwitchSystem(False)
         else:
             input('Nada selecionado, tente novamente...')
 

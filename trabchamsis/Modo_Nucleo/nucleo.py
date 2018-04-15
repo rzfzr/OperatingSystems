@@ -48,16 +48,24 @@ def CheckAuth():
 #     print('testCalled as nucleo: ', isNucleo)
 
 
-def SwitchSystem(on=True):
-    if(on):
+def CheckState():
+    return isOn
+
+
+def SwitchSystem(state):
+    global isOn
+    global isNucleo
+
+    if(state):
         log("Starting at %s \n" % datetime.datetime.now().strftime("%H:%M:%S"))
-        global isOn
-        isOn = True
-        global isNucleo
-        isNucleo = True
+        isOn = isNucleo = True
         log('(Nucleo) Modo Nucleo: %s\n' % isNucleo)
         Cycle()
+    else:
+        log("Ending at %s \n\n\n" %
+            datetime.datetime.now().strftime("%H:%M:%S"))
 
+        isOn = isNucleo = False
 
 # testVar = 'untested'
 # print('testing')
@@ -73,10 +81,10 @@ def Cycle():
     # counter += 1
     log('Checking at %s Number of jobs: %s\n' %
         (datetime.datetime.now().strftime('%H:%M:%S'), len(jobs)))
-
+    log(str(isOn))
     # job = Job('Teste')
     # jobs.append(job)
-    time.sleep(3)
+    time.sleep(5)
     # TestCall()
     sys.stdout.flush()  # required to run on vscode terminal when looping
 
