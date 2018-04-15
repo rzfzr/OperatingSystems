@@ -8,6 +8,11 @@ from Modo_Nucleo.nucleo import *
 # from Modo_Nucleo.nucleo import ReadFromFile
 
 
+# def UpdateUserName(newName):
+#     global userName
+#     userName = newName
+
+
 def UserWriteEndFile(message):
     print('nope')
 
@@ -23,22 +28,25 @@ def UserSwitchSystem(state):
     # SwitchSystem(True)
 
 
-def UserReadFromFile(initial=False, final=False):
+def UserReadFromFile(userName, initial=False, final=False):
     if not CheckState():
         UserSwitchSystem(True)
 
-    job = Job('Teste')
+    job = Job()
+    job.userName = userName
+    job.function = TestCallSingle
+    job.attributes = [44]
     global jobs
     jobs.append(job)
-    print('added job')
+    #  print('added job')
 
 
-def TestLib():
-    print("libTested!")
+# def TestLib():
+#     print("libTested!")
 
 
-def UserChangeTestVar():
-    ChangeTestVar('TESTED')
+# def UserChangeTestVar():
+#     ChangeTestVar('TESTED')
 
 
 # if __name__ == '__main__':

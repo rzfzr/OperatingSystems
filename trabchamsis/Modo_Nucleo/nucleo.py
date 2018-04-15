@@ -15,9 +15,11 @@ jobs = []  # pool of jobs
 
 
 class Job:
-    # userName = ''
-    def __init__(self, userName):
-        self.userName = userName
+    userName = ''
+    function = ''
+    attributes = []
+    # def __init__(self, userName):
+    #     self.userName = userName
 
 
 def WriteEndFile(message):  # append at the end
@@ -44,11 +46,18 @@ def CheckAuth():
     return False
 
 
-# def TestCall():
-#     print('testCalled as nucleo: ', isNucleo)
+# def TestCall(ini, fini):
+#     # print('testCalled as nucleo: ', isNucleo)
+#     print('tested x: ', ini, 'y: ', fini)
+
+
+# def TestCallSingle(fini):
+#     # print('testCalled as nucleo: ', isNucleo)
+#     print('tested y: ', fini)
 
 
 def CheckState():
+    # log('checked mofo \n')
     return isOn
 
 
@@ -64,7 +73,6 @@ def SwitchSystem(state):
     else:
         log("Ending at %s \n\n\n" %
             datetime.datetime.now().strftime("%H:%M:%S"))
-
         isOn = isNucleo = False
 
 # testVar = 'untested'
@@ -75,19 +83,31 @@ def SwitchSystem(state):
 #     testVar = message
 
 
+def ProcessOldest():
+    # global jobs
+    job = jobs[0]
+    log('Processing job from %s \n' % job.userName)
+    print(str(job.function(*job.attributes)))  # splat saves the night
+    del jobs[0]
+
+
 def Cycle():
     # counter = 0
     # while (counter < 5):
     # counter += 1
     log('Checking at %s Number of jobs: %s\n' %
         (datetime.datetime.now().strftime('%H:%M:%S'), len(jobs)))
-    log(str(isOn))
+
+    if(len(jobs) > 0):  # process the oldest
+        ProcessOldest()
+
+    # log(str(isOn))
     # job = Job('Teste')
     # jobs.append(job)
-    time.sleep(5)
     # TestCall()
     sys.stdout.flush()  # required to run on vscode terminal when looping
 
+    time.sleep(5)
     if isOn:
         Cycle()
 

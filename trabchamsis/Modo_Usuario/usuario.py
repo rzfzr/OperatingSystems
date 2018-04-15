@@ -5,12 +5,13 @@ sys.path.insert(0, os.getcwd())  # adds current dir to import from
 # from Modo_Nucleo.nucleo import ReadFromToPosition
 from Modo_Lib.lib import *
 
-userName = ''
+# userName = ''
 
 
 def Menu():  # Your menu design here
-    global userName
-    userName = input('Enter your name:')
+    # global userName
+    userName = input('Enter your name: ')
+
     selection = ''
     while selection is not '0':
         print(8 * '-', 'MENU', 8 * '-', '\n',
@@ -32,7 +33,7 @@ def Menu():  # Your menu design here
 
             selection = input('Sua Escolha (0-2): ')
             if(selection == '2'):
-                UserReadFromFile()
+                UserReadFromFile(userName)
 
         elif selection == '3':
             print('Menu 3 has been selected')
@@ -42,7 +43,7 @@ def Menu():  # Your menu design here
             print('Saindo')
             UserSwitchSystem(False)
         else:
-            input('Nada selecionado, tente novamente...')
+            input('Nada selecionado, tente novamente: ')
 
 
 if __name__ == '__main__':

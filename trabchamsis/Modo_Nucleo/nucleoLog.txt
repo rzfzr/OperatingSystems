@@ -1,203 +1,218 @@
-0101010101010Starting at 21:13:07 
+checked mofo 
+Starting at 22:39:12 
 (Nucleo) Modo Nucleo: True
-Checking at 21:13:07 Number of jobs: 1
-Checking at 21:13:10 Number of jobs: 1
-Checking at 21:13:13 Number of jobs: 1
-Starting at 21:13:13 
-(Nucleo) Modo Nucleo: True
-Checking at 21:13:13 Number of jobs: 2
-Checking at 21:13:16 Number of jobs: 2
-Checking at 21:13:16 Number of jobs: 2
-Checking at 21:13:19 Number of jobs: 2
-Checking at 21:13:19 Number of jobs: 2
-Checking at 21:13:22 Number of jobs: 2
-Checking at 21:13:22 Number of jobs: 2
-Checking at 21:13:25 Number of jobs: 2
-Checking at 21:13:25 Number of jobs: 2
-Starting at 21:13:26 
-(Nucleo) Modo Nucleo: True
-Checking at 21:13:26 Number of jobs: 3
-Checking at 21:13:28 Number of jobs: 3
-Checking at 21:13:28 Number of jobs: 3
-Checking at 21:13:29 Number of jobs: 3
-Starting at 21:13:31 
-(Nucleo) Modo Nucleo: True
-Checking at 21:13:31 Number of jobs: 4
-Checking at 21:13:31 Number of jobs: 4
-Starting at 21:13:31 
-(Nucleo) Modo Nucleo: True
-Checking at 21:13:31 Number of jobs: 5
-Starting at 21:13:31 
-(Nucleo) Modo Nucleo: True
-Checking at 21:13:31 Number of jobs: 6
-Checking at 21:13:31 Number of jobs: 6
-Checking at 21:13:32 Number of jobs: 6
-Checking at 21:13:34 Number of jobs: 6
-Checking at 21:13:34 Number of jobs: 6
-Checking at 21:13:34 Number of jobs: 6
-Checking at 21:13:34 Number of jobs: 6
-Checking at 21:13:34 Number of jobs: 6
-Checking at 21:13:35 Number of jobs: 6
-Checking at 21:13:37 Number of jobs: 6
-Checking at 21:13:37 Number of jobs: 6
-Checking at 21:13:37 Number of jobs: 6
-Checking at 21:13:37 Number of jobs: 6
-Checking at 21:13:37 Number of jobs: 6
-Checking at 21:13:38 Number of jobs: 6
-Checking at 21:13:40 Number of jobs: 6
-Checking at 21:13:40 Number of jobs: 6
-Checking at 21:13:40 Number of jobs: 6
-Checking at 21:13:40 Number of jobs: 6
-Checking at 21:13:40 Number of jobs: 6
-Checking at 21:13:41 Number of jobs: 6
-Checking at 21:13:43 Number of jobs: 6
-Checking at 21:13:43 Number of jobs: 6
-Checking at 21:13:43 Number of jobs: 6
-Checking at 21:13:43 Number of jobs: 6
-Checking at 21:13:43 Number of jobs: 6
-Checking at 21:13:44 Number of jobs: 6
-Checking at 21:13:46 Number of jobs: 6
-Starting at 21:16:12 
-(Nucleo) Modo Nucleo: True
-Checking at 21:16:12 Number of jobs: 1
-Checking at 21:16:15 Number of jobs: 1
-Checking at 21:16:18 Number of jobs: 1
-Checking at 21:16:21 Number of jobs: 1
-Checking at 21:16:24 Number of jobs: 1
-Checking at 21:16:27 Number of jobs: 1
-Starting at 21:16:27 
-(Nucleo) Modo Nucleo: True
-Checking at 21:16:27 Number of jobs: 2
-Starting at 21:16:29 
-(Nucleo) Modo Nucleo: True
-Checking at 21:16:29 Number of jobs: 3
-Checking at 21:16:30 Number of jobs: 3
-Checking at 21:16:30 Number of jobs: 3
-Checking at 21:16:32 Number of jobs: 3
-Checking at 21:16:33 Number of jobs: 3
-Starting at 21:16:33 
-(Nucleo) Modo Nucleo: True
-Checking at 21:16:33 Number of jobs: 4
-Checking at 21:16:33 Number of jobs: 4
-Starting at 21:16:34 
-(Nucleo) Modo Nucleo: True
-Checking at 21:16:34 Number of jobs: 5
-Checking at 21:16:35 Number of jobs: 5
-Checking at 21:16:36 Number of jobs: 5
-Checking at 21:16:36 Number of jobs: 5
-Checking at 21:16:36 Number of jobs: 5
-Checking at 21:16:37 Number of jobs: 5
-Checking at 21:16:38 Number of jobs: 5
-Checking at 21:16:39 Number of jobs: 5
-Checking at 21:16:39 Number of jobs: 5
-Checking at 21:16:39 Number of jobs: 5
-Checking at 21:16:40 Number of jobs: 5
-Checking at 21:16:41 Number of jobs: 5
-Checking at 21:16:42 Number of jobs: 5
-Checking at 21:16:42 Number of jobs: 5
-Checking at 21:16:42 Number of jobs: 5
-Checking at 21:16:43 Number of jobs: 5
-Checking at 21:16:44 Number of jobs: 5
-Checking at 21:16:45 Number of jobs: 5
-Checking at 21:16:45 Number of jobs: 5
-Checking at 21:16:45 Number of jobs: 5
-Checking at 21:16:46 Number of jobs: 5
-Starting at 21:20:35 
-(Nucleo) Modo Nucleo: True
-Checking at 21:20:35 Number of jobs: 1
-Checking at 21:20:38 Number of jobs: 1
-Checking at 21:20:41 Number of jobs: 1
-Starting at 21:20:42 
-(Nucleo) Modo Nucleo: True
-Checking at 21:20:42 Number of jobs: 2
-Checking at 21:20:44 Number of jobs: 2
-Checking at 21:20:45 Number of jobs: 2
-Checking at 21:20:47 Number of jobs: 2
-Checking at 21:20:48 Number of jobs: 2
-Checking at 21:20:50 Number of jobs: 2
-Checking at 21:20:51 Number of jobs: 2
-Checking at 21:20:53 Number of jobs: 2
-Checking at 21:20:54 Number of jobs: 2
-Checking at 21:20:56 Number of jobs: 2
-Starting at 21:23:06 
-(Nucleo) Modo Nucleo: True
-Checking at 21:23:06 Number of jobs: 0
-Checking at 21:23:09 Number of jobs: 0
-Checking at 21:23:12 Number of jobs: 0
-Checking at 21:23:15 Number of jobs: 0
-Checking at 21:23:18 Number of jobs: 0
-Checking at 21:23:21 Number of jobs: 0
-Checking at 21:23:24 Number of jobs: 0
-Checking at 21:23:27 Number of jobs: 0
-Checking at 21:23:30 Number of jobs: 0
-Starting at 21:34:38 
-(Nucleo) Modo Nucleo: True
-Checking at 21:34:38 Number of jobs: 1
-Starting at 21:37:10 
-(Nucleo) Modo Nucleo: True
-Checking at 21:37:10 Number of jobs: 1
-TrueChecking at 21:37:15 Number of jobs: 1
-TrueChecking at 21:37:20 Number of jobs: 1
-TrueChecking at 21:37:25 Number of jobs: 1
-TrueEnding at 21:37:30 
+Checking at 22:39:12 Number of jobs: 1
+Checking at 22:39:17 Number of jobs: 1
+Checking at 22:39:22 Number of jobs: 1
+Checking at 22:39:27 Number of jobs: 1
+Ending at 22:39:31 
 
 
-Starting at 21:37:37 
+checked mofo 
+checked mofo 
+40:02 
 (Nucleo) Modo Nucleo: True
-Checking at 21:37:37 Number of jobs: 1
-TrueChecking at 21:37:42 Number of jobs: 1
-TrueStarting at 21:37:45 
-(Nucleo) Modo Nucleo: True
-Checking at 21:37:45 Number of jobs: 2
-TrueStarting at 21:37:46 
-(Nucleo) Modo Nucleo: True
-Checking at 21:37:46 Number of jobs: 3
-TrueStarting at 21:37:47 
-(Nucleo) Modo Nucleo: True
-Checking at 21:37:47 Number of jobs: 4
-TrueChecking at 21:37:47 Number of jobs: 4
-TrueStarting at 21:37:47 
-(Nucleo) Modo Nucleo: True
-Checking at 21:37:47 Number of jobs: 5
-TrueStarting at 21:37:48 
-(Nucleo) Modo Nucleo: True
-Checking at 21:37:48 Number of jobs: 6
-TrueChecking at 21:37:50 Number of jobs: 6
-TrueChecking at 21:37:51 Number of jobs: 6
-TrueChecking at 21:37:52 Number of jobs: 6
-TrueChecking at 21:37:52 Number of jobs: 6
-TrueChecking at 21:37:52 Number of jobs: 6
-TrueChecking at 21:37:53 Number of jobs: 6
-TrueChecking at 21:37:55 Number of jobs: 6
-TrueChecking at 21:37:56 Number of jobs: 6
-TrueChecking at 21:37:57 Number of jobs: 6
-TrueChecking at 21:37:57 Number of jobs: 6
-TrueEnding at 21:37:57 
+Checking at 22:40:02 Number of jobs: 1
+Checking at 22:40:07 Number of jobs: 1
+Checking at 22:40:12 Number of jobs: 1
+Checking at 22:40:17 Number of jobs: 1
+Checking at 22:40:22 Number of jobs: 1
+Checking at 22:40:27 Number of jobs: 1
+Checking at 22:40:32 Number of jobs: 1
+Checking at 22:40:37 Number of jobs: 1
+Checking at 22:40:42 Number of jobs: 1
+Checking at 22:40:47 Number of jobs: 1
+Checking at 22:40:52 Number of jobs: 1
+Checking at 22:40:57 Number of jobs: 1
+Ending at 22:41:01 
 
 
-Starting at 21:41:45 
+checked mofo 
+checked mofo 
+41:26 
 (Nucleo) Modo Nucleo: True
-Checking at 21:41:45 Number of jobs: 1
-TrueChecking at 21:41:50 Number of jobs: 1
-TrueChecking at 21:41:55 Number of jobs: 1
-TrueChecking at 21:42:00 Number of jobs: 8
-TrueChecking at 21:42:05 Number of jobs: 8
-TrueChecking at 21:42:10 Number of jobs: 16
-TrueEnding at 21:42:15 
+Checking at 22:41:26 Number of jobs: 1
+Processing new job from teste 
+Ending at 22:42:18 
 
 
-Checking at 21:42:15 Number of jobs: 21
-FalseStarting at 21:42:56 
+checked mofo 
+Starting at 22:42:26 
+checked mofo 
 (Nucleo) Modo Nucleo: True
-Checking at 21:42:56 Number of jobs: 1
-TrueChecking at 21:43:01 Number of jobs: 1
-TrueChecking at 21:43:06 Number of jobs: 4
-TrueChecking at 21:43:11 Number of jobs: 4
-TrueChecking at 21:43:16 Number of jobs: 4
-TrueChecking at 21:43:21 Number of jobs: 4
-TrueChecking at 21:43:26 Number of jobs: 4
-TrueChecking at 21:43:31 Number of jobs: 4
-TrueChecking at 21:43:36 Number of jobs: 4
-TrueEnding at 21:43:38 
+Checking at 22:42:26 Number of jobs: 1
+Processing new job from 222 
+Checking at 22:42:31 Number of jobs: 0
+Checking at 22:42:36 Number of jobs: 0
+Checking at 22:42:41 Number of jobs: 0
+Checking at 22:42:46 Number of jobs: 0
+Checking at 22:42:51 Number of jobs: 0
+Checking at 22:42:56 Number of jobs: 0
+Checking at 22:43:01 Number of jobs: 0
+Checking at 22:43:06 Number of jobs: 0
+Checking at 22:43:11 Number of jobs: 0
+Checking at 22:43:16 Number of jobs: 0
+Checking at 22:43:21 Number of jobs: 0
+Ending at 22:43:23 
+
+
+Starting at 22:44:23 
+(Nucleo) Modo Nucleo: True
+Checking at 22:44:23 Number of jobs: 1
+Processing new job from teste 
+Checking at 22:44:28 Number of jobs: 0
+Checking at 22:44:33 Number of jobs: 0
+Ending at 22:44:34 
+
+
+Starting at 22:44:44 
+(Nucleo) Modo Nucleo: True
+Checking at 22:44:44 Number of jobs: 1
+Processing new job from tete 
+Checking at 22:44:49 Number of jobs: 0
+Checking at 22:44:54 Number of jobs: 0
+Checking at 22:44:59 Number of jobs: 0
+Checking at 22:45:04 Number of jobs: 0
+Checking at 22:45:09 Number of jobs: 0
+Ending at 22:45:09 
+
+
+Starting at 22:45:25 
+(Nucleo) Modo Nucleo: True
+Checking at 22:45:25 Number of jobs: 1
+Processing new job from teste 
+Ending at 22:47:27 
+
+
+Starting at 22:47:37 
+(Nucleo) Modo Nucleo: True
+Checking at 22:47:37 Number of jobs: 1
+Processing new job from teste 
+Checking at 22:47:42 Number of jobs: 0
+Checking at 22:47:47 Number of jobs: 0
+Checking at 22:47:52 Number of jobs: 0
+Checking at 22:47:57 Number of jobs: 0
+Checking at 22:48:02 Number of jobs: 0
+Checking at 22:48:07 Number of jobs: 0
+Checking at 22:48:12 Number of jobs: 0
+Checking at 22:48:17 Number of jobs: 0
+Checking at 22:48:22 Number of jobs: 0
+Checking at 22:48:27 Number of jobs: 0
+Checking at 22:48:32 Number of jobs: 0
+Ending at 22:48:36 
+
+
+Starting at 22:57:06 
+(Nucleo) Modo Nucleo: True
+Checking at 22:57:06 Number of jobs: 1
+Processing new job from rafael 
+Ending at 22:58:36 
+
+
+Starting at 22:58:44 
+(Nucleo) Modo Nucleo: True
+Checking at 22:58:44 Number of jobs: 1
+Processing new job from rafael 
+Ending at 23:00:38 
+
+
+Starting at 23:00:49 
+(Nucleo) Modo Nucleo: True
+Checking at 23:00:49 Number of jobs: 1
+Processing new job from rafale 
+Checking at 23:00:54 Number of jobs: 0
+Checking at 23:00:59 Number of jobs: 0
+Checking at 23:01:04 Number of jobs: 0
+Checking at 23:01:09 Number of jobs: 0
+Checking at 23:01:14 Number of jobs: 0
+Checking at 23:01:19 Number of jobs: 0
+Checking at 23:01:24 Number of jobs: 0
+Checking at 23:01:29 Number of jobs: 0
+Checking at 23:01:34 Number of jobs: 0
+Checking at 23:01:39 Number of jobs: 0
+Ending at 23:01:44 
+
+
+Starting at 23:02:22 
+(Nucleo) Modo Nucleo: True
+Checking at 23:02:22 Number of jobs: 1
+Processing job from atata 
+Ending at 23:04:06 
+
+
+Starting at 23:04:25 
+(Nucleo) Modo Nucleo: True
+Checking at 23:04:25 Number of jobs: 1
+Processing job from tata 
+Ending at 23:04:58 
+
+
+Starting at 23:05:03 
+(Nucleo) Modo Nucleo: True
+Checking at 23:05:03 Number of jobs: 1
+Processing job from rafa 
+Ending at 23:09:48 
+
+
+Starting at 23:09:53 
+(Nucleo) Modo Nucleo: True
+Checking at 23:09:53 Number of jobs: 0
+Checking at 23:09:58 Number of jobs: 0
+Checking at 23:10:03 Number of jobs: 0
+Checking at 23:10:08 Number of jobs: 0
+Checking at 23:10:13 Number of jobs: 0
+Checking at 23:10:18 Number of jobs: 0
+Checking at 23:10:23 Number of jobs: 0
+Checking at 23:10:28 Number of jobs: 0
+Starting at 23:11:58 
+(Nucleo) Modo Nucleo: True
+Checking at 23:11:58 Number of jobs: 1
+Processing job from rafael 
+Ending at 23:14:13 
+
+
+Starting at 23:14:20 
+(Nucleo) Modo Nucleo: True
+Checking at 23:14:20 Number of jobs: 1
+Processing job from cecece 
+Ending at 23:14:41 
+
+
+Starting at 23:15:04 
+(Nucleo) Modo Nucleo: True
+Checking at 23:15:04 Number of jobs: 1
+Processing job from etete 
+Checking at 23:15:09 Number of jobs: 0
+Checking at 23:15:14 Number of jobs: 0
+Checking at 23:15:19 Number of jobs: 0
+Checking at 23:15:24 Number of jobs: 0
+Checking at 23:15:29 Number of jobs: 0
+Checking at 23:15:34 Number of jobs: 0
+Checking at 23:15:39 Number of jobs: 0
+Ending at 23:15:41 
+
+
+Starting at 23:15:52 
+(Nucleo) Modo Nucleo: True
+Checking at 23:15:52 Number of jobs: 1
+Processing job from 123 
+Checking at 23:15:57 Number of jobs: 0
+Ending at 23:15:57 
+
+
+Starting at 23:16:38 
+(Nucleo) Modo Nucleo: True
+Checking at 23:16:38 Number of jobs: 1
+Processing job from tatata 
+Checking at 23:16:43 Number of jobs: 0
+Ending at 23:16:47 
+
+
+Starting at 23:17:42 
+(Nucleo) Modo Nucleo: True
+Checking at 23:17:42 Number of jobs: 1
+Processing job from 234 
+Checking at 23:17:47 Number of jobs: 0
+Ending at 23:17:51 
 
 
