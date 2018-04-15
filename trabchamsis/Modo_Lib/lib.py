@@ -8,14 +8,15 @@ from Modo_Nucleo.nucleo import *
 # from Modo_Nucleo.nucleo import ReadFromFile
 
 
-# def UpdateUserName(newName):
-#     global userName
-#     userName = newName
+def UserSwitchSystem(state):
+    if state and not CheckState():
+        Thread(target=SwitchSystem, args=(state,)).start()
+    elif not state and CheckState():
+        Thread(target=SwitchSystem, args=(state,)).start()
 
 
 def UserWriteEndFile(userName, message):
-    if not CheckState():
-        UserSwitchSystem(True)
+    UserSwitchSystem(True)
     global jobs
 
     job = Job(userName, WriteEndFile, [message])
@@ -23,11 +24,24 @@ def UserWriteEndFile(userName, message):
         job.highPriority = True
 
     jobs.append(job)
-    # print('nope')
 
 
-def UserSwitchSystem(state):
-    Thread(target=SwitchSystem, args=(state,)).start()
+def UserReadFromFile(userName, initial=False, final=False, isBot=False):
+    UserSwitchSystem(True)
+    global jobs
+
+    job = Job(userName, ReadFromFile, [initial, final], isBot=isBot)
+    if userName == 'root':
+        job.highPriority = True
+
+    jobs.append(job)
+
+# def UpdateUserName(newName):
+#     global userName
+#     userName = newName
+# def CheckAndSwitch(username)
+# print('nope')
+
     # else:
     #     Thread(target)
 
@@ -36,17 +50,6 @@ def UserSwitchSystem(state):
     # jobs.append(process)
     # SwitchSystem(True)
 
-
-def UserReadFromFile(userName, initial=False, final=False):
-    if not CheckState():
-        UserSwitchSystem(True)
-    global jobs
-
-    job = Job(userName, ReadFromFile, [initial, final])
-    if userName == 'root':
-        job.highPriority = True
-
-    jobs.append(job)
     # job.userName = userName
     # job.function = TestCallSingle
     # job.parameters = [44]
