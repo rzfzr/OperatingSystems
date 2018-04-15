@@ -39,7 +39,7 @@ def Menu():  # Your menu design here
         elif selection == '4':
             print('Menu 4 has been selected')
         elif selection == '0':
-            print('Menu 5 has been selected')
+            print('Saindo')
         else:
             input('Nada selecionado, tente novamente...')
 

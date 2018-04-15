@@ -1,0 +1,104 @@
+0101010101010Starting at 21:13:07 
+(Nucleo) Modo Nucleo: True
+Checking at 21:13:07 Number of jobs: 1
+Checking at 21:13:10 Number of jobs: 1
+Checking at 21:13:13 Number of jobs: 1
+Starting at 21:13:13 
+(Nucleo) Modo Nucleo: True
+Checking at 21:13:13 Number of jobs: 2
+Checking at 21:13:16 Number of jobs: 2
+Checking at 21:13:16 Number of jobs: 2
+Checking at 21:13:19 Number of jobs: 2
+Checking at 21:13:19 Number of jobs: 2
+Checking at 21:13:22 Number of jobs: 2
+Checking at 21:13:22 Number of jobs: 2
+Checking at 21:13:25 Number of jobs: 2
+Checking at 21:13:25 Number of jobs: 2
+Starting at 21:13:26 
+(Nucleo) Modo Nucleo: True
+Checking at 21:13:26 Number of jobs: 3
+Checking at 21:13:28 Number of jobs: 3
+Checking at 21:13:28 Number of jobs: 3
+Checking at 21:13:29 Number of jobs: 3
+Starting at 21:13:31 
+(Nucleo) Modo Nucleo: True
+Checking at 21:13:31 Number of jobs: 4
+Checking at 21:13:31 Number of jobs: 4
+Starting at 21:13:31 
+(Nucleo) Modo Nucleo: True
+Checking at 21:13:31 Number of jobs: 5
+Starting at 21:13:31 
+(Nucleo) Modo Nucleo: True
+Checking at 21:13:31 Number of jobs: 6
+Checking at 21:13:31 Number of jobs: 6
+Checking at 21:13:32 Number of jobs: 6
+Checking at 21:13:34 Number of jobs: 6
+Checking at 21:13:34 Number of jobs: 6
+Checking at 21:13:34 Number of jobs: 6
+Checking at 21:13:34 Number of jobs: 6
+Checking at 21:13:34 Number of jobs: 6
+Checking at 21:13:35 Number of jobs: 6
+Checking at 21:13:37 Number of jobs: 6
+Checking at 21:13:37 Number of jobs: 6
+Checking at 21:13:37 Number of jobs: 6
+Checking at 21:13:37 Number of jobs: 6
+Checking at 21:13:37 Number of jobs: 6
+Checking at 21:13:38 Number of jobs: 6
+Checking at 21:13:40 Number of jobs: 6
+Checking at 21:13:40 Number of jobs: 6
+Checking at 21:13:40 Number of jobs: 6
+Checking at 21:13:40 Number of jobs: 6
+Checking at 21:13:40 Number of jobs: 6
+Checking at 21:13:41 Number of jobs: 6
+Checking at 21:13:43 Number of jobs: 6
+Checking at 21:13:43 Number of jobs: 6
+Checking at 21:13:43 Number of jobs: 6
+Checking at 21:13:43 Number of jobs: 6
+Checking at 21:13:43 Number of jobs: 6
+Checking at 21:13:44 Number of jobs: 6
+Checking at 21:13:46 Number of jobs: 6
+Starting at 21:16:12 
+(Nucleo) Modo Nucleo: True
+Checking at 21:16:12 Number of jobs: 1
+Checking at 21:16:15 Number of jobs: 1
+Checking at 21:16:18 Number of jobs: 1
+Checking at 21:16:21 Number of jobs: 1
+Checking at 21:16:24 Number of jobs: 1
+Checking at 21:16:27 Number of jobs: 1
+Starting at 21:16:27 
+(Nucleo) Modo Nucleo: True
+Checking at 21:16:27 Number of jobs: 2
+Starting at 21:16:29 
+(Nucleo) Modo Nucleo: True
+Checking at 21:16:29 Number of jobs: 3
+Checking at 21:16:30 Number of jobs: 3
+Checking at 21:16:30 Number of jobs: 3
+Checking at 21:16:32 Number of jobs: 3
+Checking at 21:16:33 Number of jobs: 3
+Starting at 21:16:33 
+(Nucleo) Modo Nucleo: True
+Checking at 21:16:33 Number of jobs: 4
+Checking at 21:16:33 Number of jobs: 4
+Starting at 21:16:34 
+(Nucleo) Modo Nucleo: True
+Checking at 21:16:34 Number of jobs: 5
+Checking at 21:16:35 Number of jobs: 5
+Checking at 21:16:36 Number of jobs: 5
+Checking at 21:16:36 Number of jobs: 5
+Checking at 21:16:36 Number of jobs: 5
+Checking at 21:16:37 Number of jobs: 5
+Checking at 21:16:38 Number of jobs: 5
+Checking at 21:16:39 Number of jobs: 5
+Checking at 21:16:39 Number of jobs: 5
+Checking at 21:16:39 Number of jobs: 5
+Checking at 21:16:40 Number of jobs: 5
+Checking at 21:16:41 Number of jobs: 5
+Checking at 21:16:42 Number of jobs: 5
+Checking at 21:16:42 Number of jobs: 5
+Checking at 21:16:42 Number of jobs: 5
+Checking at 21:16:43 Number of jobs: 5
+Checking at 21:16:44 Number of jobs: 5
+Checking at 21:16:45 Number of jobs: 5
+Checking at 21:16:45 Number of jobs: 5
+Checking at 21:16:45 Number of jobs: 5
+Checking at 21:16:46 Number of jobs: 5
