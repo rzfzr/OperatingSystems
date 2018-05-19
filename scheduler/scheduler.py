@@ -12,7 +12,7 @@ class Type(Enum):
     PRIORITY = 2
     PRIORITY_FILE = 3
     FAIR_SHARING = 4
-    LOTERY = 5
+    LOTTERY = 5
 
 class State(Enum):
     READY    = 1
@@ -29,7 +29,7 @@ class Job:
         self.function = function
         self.state=State.READY
         # if(type == Type.FIFO):
-        if(type == Type.LOTERY):
+        if(type == Type.LOTTERY):
             while luck>0:
                 luck-=1
                 tickets.append(pid)
@@ -44,10 +44,13 @@ def ProcessOldest():
     StartProcess(jobs[0])
 
 def ProcessLucky():    
-    random.choice(tickets)    
-    while True:
-        print('lucky lolz')
-        break
+    global tickets
+    choice = random.choice(tickets)                                     # print('rand: ',choice)
+    tickets = list(filter(lambda a: a != choice, tickets))              # print('tickets:',tickets)
+    for job in jobs:
+        if job.pid == choice:
+            StartProcess(job)
+            break
 
 
 def StartProcess(job):
@@ -60,7 +63,7 @@ def Fun(pid):
     ran =0
     while ran>0:
         ran-=1
-        print'Process:',pid,'          Action:',ran
+        print('Process:',pid,'          Action:',ran)
 
 def Schedule(type):
     print('Checking at %s Number of jobs: %s\n' %(datetime.datetime.now().strftime('%H:%M:%S'), len(jobs)))
@@ -69,18 +72,35 @@ def Schedule(type):
         return
     if(type == Type.FIFO):
         ProcessOldest()
-    if(type==Type.LOTERY):
+    if(type==Type.LOTTERY):
         ProcessLucky()
+
+
     Schedule(type)
 
 if __name__ == '__main__':
-    tempType = Type.FIFO
-    
-    jobs.append(Job(1000,tempType,Fun))
-    jobs.append(Job(1001,tempType,Fun))
-    jobs.append(Job(1002,tempType,Fun))
-    jobs.append(Job(1003,tempType,Fun))
-    jobs.append(Job(1004,tempType,Fun))
-    jobs.append(Job(1005,tempType,Fun))
+    # tempType = Type.FIFO
+    # jobs.append(Job(1000,tempType,Fun))
+    # jobs.append(Job(1001,tempType,Fun))
+    # jobs.append(Job(1002,tempType,Fun))
+    # jobs.append(Job(1003,tempType,Fun))
+    # jobs.append(Job(1004,tempType,Fun))
+    # jobs.append(Job(1005,tempType,Fun))
+
+    # tempType = Type.LOTTERY
+    # jobs.append(Job(1000,tempType,Fun,luck=1))
+    # jobs.append(Job(1001,tempType,Fun,luck=2))
+    # jobs.append(Job(1002,tempType,Fun,luck=3))
+    # jobs.append(Job(1003,tempType,Fun,luck=4))
+    # jobs.append(Job(1004,tempType,Fun,luck=5))
+    # jobs.append(Job(1005,tempType,Fun,luck=6))
+
+    tempType = Type.LOTTERY
+    jobs.append(Job(1000,tempType,Fun,luck=1))
+    jobs.append(Job(1001,tempType,Fun,luck=2))
+    jobs.append(Job(1002,tempType,Fun,luck=3))
+    jobs.append(Job(1003,tempType,Fun,luck=4))
+    jobs.append(Job(1004,tempType,Fun,luck=5))
+    jobs.append(Job(1005,tempType,Fun,luck=6))
 
     Schedule(tempType)
