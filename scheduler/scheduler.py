@@ -28,17 +28,25 @@ class Job:
         self.pid = pid
         self.function = function
         self.state=State.READY
-        # if(type == Type.FIFO):
+        
         if(type == Type.LOTTERY):
             while luck>0:
                 luck-=1
                 tickets.append(pid)
 
-            ticket = random.randint(0,100)
         elif (type==Type.PRIORITY):
             self.level=level 
 
 
+
+def ProcessHighest():
+    currentLevel = len(Level) #genius
+    while True:
+        for job in jobs:
+            if job.level==Level(currentLevel):
+                StartProcess(job)
+                return
+        currentLevel-=1
 
 def ProcessOldest():
     StartProcess(jobs[0])
@@ -51,6 +59,7 @@ def ProcessLucky():
         if job.pid == choice:
             StartProcess(job)
             break
+
 
 
 def StartProcess(job):
@@ -74,11 +83,13 @@ def Schedule(type):
         ProcessOldest()
     if(type==Type.LOTTERY):
         ProcessLucky()
-
+    if(type==Type.PRIORITY):
+        ProcessHighest()
 
     Schedule(type)
 
 if __name__ == '__main__':
+
     # tempType = Type.FIFO
     # jobs.append(Job(1000,tempType,Fun))
     # jobs.append(Job(1001,tempType,Fun))
@@ -95,12 +106,21 @@ if __name__ == '__main__':
     # jobs.append(Job(1004,tempType,Fun,luck=5))
     # jobs.append(Job(1005,tempType,Fun,luck=6))
 
-    tempType = Type.LOTTERY
-    jobs.append(Job(1000,tempType,Fun,luck=1))
-    jobs.append(Job(1001,tempType,Fun,luck=2))
-    jobs.append(Job(1002,tempType,Fun,luck=3))
-    jobs.append(Job(1003,tempType,Fun,luck=4))
-    jobs.append(Job(1004,tempType,Fun,luck=5))
-    jobs.append(Job(1005,tempType,Fun,luck=6))
+    # tempType = Type.PRIORITY
+    # jobs.append(Job(1000,tempType,Fun,level=Level.LOW))
+    # jobs.append(Job(1001,tempType,Fun,level=Level.LOW))
+    # jobs.append(Job(1002,tempType,Fun,level=Level.MEDIUM))
+    # jobs.append(Job(1003,tempType,Fun,level=Level.MEDIUM))
+    # jobs.append(Job(1004,tempType,Fun,level=Level.HIGH))
+    # jobs.append(Job(1005,tempType,Fun,level=Level.HIGH))
+
+    tempType = Type.FAIR_SHARING
+    jobs.append(Job(1000,tempType,Fun,level=Level.LOW))
+    jobs.append(Job(1001,tempType,Fun,level=Level.LOW))
+    jobs.append(Job(1002,tempType,Fun,level=Level.MEDIUM))
+    jobs.append(Job(1003,tempType,Fun,level=Level.MEDIUM))
+    jobs.append(Job(1004,tempType,Fun,level=Level.HIGH))
+    jobs.append(Job(1005,tempType,Fun,level=Level.HIGH))
+    
 
     Schedule(tempType)
