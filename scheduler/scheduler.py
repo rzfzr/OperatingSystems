@@ -1,0 +1,86 @@
+import sys  # for custom paths
+import time  # for waits
+import random
+# import os
+# import multiprocessing
+from enum import Enum
+import datetime  # for logging time
+jobs = []  # pool of jobs
+tickets = []
+class Type(Enum):
+    FIFO= 1
+    PRIORITY = 2
+    PRIORITY_FILE = 3
+    FAIR_SHARING = 4
+    LOTERY = 5
+
+class State(Enum):
+    READY    = 1
+    WORKING  = 2
+
+class Level(Enum):
+    LOW    = 1
+    MEDIUM = 2
+    HIGH   = 3
+
+class Job:
+    def __init__(self , pid , type, function, level=Level.MEDIUM, luck=1):
+        self.pid = pid
+        self.function = function
+        self.state=State.READY
+        # if(type == Type.FIFO):
+        if(type == Type.LOTERY):
+            while luck>0:
+                luck-=1
+                tickets.append(pid)
+
+            ticket = random.randint(0,100)
+        elif (type==Type.PRIORITY):
+            self.level=level 
+
+
+
+def ProcessOldest():
+    StartProcess(jobs[0])
+
+def ProcessLucky():    
+    random.choice(tickets)    
+    while True:
+        print('lucky lolz')
+        break
+
+
+def StartProcess(job):
+    print('Starting Process: %s \n' % job.pid)
+    job.function(job.pid)
+    jobs.remove(job)
+
+def Fun(pid):
+    ran=random.randint(2,5)
+    ran =0
+    while ran>0:
+        ran-=1
+        print'Process:',pid,'          Action:',ran
+
+def Schedule(type):
+    print('Checking at %s Number of jobs: %s\n' %(datetime.datetime.now().strftime('%H:%M:%S'), len(jobs)))
+    if(len(jobs) < 1):
+        print('No Jobs, stopping')
+        return
+    if(type == Type.FIFO):
+        ProcessOldest()
+    if(type==Type.LOTERY):
+        ProcessLucky()
+    Schedule(type)
+
+if __name__ == '__main__':
+    tempType = Type.FIFO
+    
+    jobs.append(Job(1000,tempType,Fun))
+    jobs.append(Job(1001,tempType,Fun))
+    jobs.append(Job(1002,tempType,Fun))
+    jobs.append(Job(1003,tempType,Fun))
+    jobs.append(Job(1004,tempType,Fun))
+    jobs.append(Job(1005,tempType,Fun))
+
+    Schedule(tempType)
