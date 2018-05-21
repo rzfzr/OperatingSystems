@@ -10,7 +10,7 @@ tickets = []
 class Type(Enum):
     FIFO= 1
     PRIORITY = 2
-    # PRIORITY_FILE = 3
+    PRIORITY_FILE = 3
     FAIR_SHARING = 4
     LOTTERY = 5
 
@@ -35,20 +35,39 @@ class Job:
         self.function = function
         self.state=State.READY
         
-        if(type == Type.LOTTERY):
+        if type == Type.LOTTERY:
             while luck>0:
                 luck-=1
                 tickets.append(pid)
 
-        elif (type==Type.PRIORITY):
+        elif type==Type.PRIORITY or type==Type.FAIR_SHARING:
             self.level=level 
 
-        elif (type==Type.FAIR_SHARING):
+        elif type==Type.PRIORITY_FILE:
             self.group=group
 
 
-lastGroup = 0
+fairLevel=len(Level)
+
+def FairKeeping():
+    global fairLevel
+    while True:
+        fairLevel = len(Level)
+        time.sleep(10)
+        while fairLevel-1 != 0:
+            fairLevel-=1
+            time.sleep(5)
+
+
+
 def ProcessFairest():
+    for job in jobs:
+        if job.level==Level(fairLevel):
+            StartProcess(job)
+            return
+    
+lastGroup = 0
+def ProcessInFile():
     NextGroup()
     while True:
         for job in jobs:
@@ -65,7 +84,7 @@ def NextGroup():
         lastGroup+=1
 
 def ProcessHighest():
-    currentLevel = len(Level) #genius
+    currentLevel = len(Level) 
     while True:
         for job in jobs:
             if job.level==Level(currentLevel):
@@ -105,15 +124,18 @@ def Schedule(type):
     if(len(jobs) < 1):
         print('No Jobs, stopping')
         return
-    if(type == Type.FIFO):
+    if type == Type.FIFO:
         ProcessOldest()
-    if(type==Type.LOTTERY):
+    elif type==Type.LOTTERY:
         ProcessLucky()
-    if(type==Type.PRIORITY):
+    elif type==Type.PRIORITY:
         ProcessHighest()
-    if(type==Type.FAIR_SHARING):
+    elif type==Type.PRIORITY_FILE:
+        ProcessInFile()
+    elif type ==Type.FAIR_SHARING:
+        # FairKeeping()
         ProcessFairest()
-
+    
     Schedule(type)
 
 if __name__ == '__main__':
@@ -142,13 +164,23 @@ if __name__ == '__main__':
     # jobs.append(Job(1004,tempType,Fun,level=Level.HIGH))
     # jobs.append(Job(1005,tempType,Fun,level=Level.HIGH))
 
-    tempType = Type.FAIR_SHARING #round robin?
-    jobs.append(Job(1000,tempType,Fun,group=Group.A))
-    jobs.append(Job(1001,tempType,Fun,group=Group.A))
-    jobs.append(Job(1002,tempType,Fun,group=Group.B))
-    jobs.append(Job(1003,tempType,Fun,group=Group.B))
-    jobs.append(Job(1004,tempType,Fun,group=Group.C))
-    jobs.append(Job(1005,tempType,Fun,group=Group.C))
+    # tempType = Type.PRIORITY_FILE 
+    # jobs.append(Job(1000,tempType,Fun,group=Group.A))
+    # jobs.append(Job(1001,tempType,Fun,group=Group.A))
+    # jobs.append(Job(1002,tempType,Fun,group=Group.B))
+    # jobs.append(Job(1003,tempType,Fun,group=Group.B))
+    # jobs.append(Job(1004,tempType,Fun,group=Group.C))
+    # jobs.append(Job(1005,tempType,Fun,group=Group.C))
     
 
-    Schedule(tempType)
+
+    tempType = Type.FAIR_SHARING 
+    # jobs.append(Job(1000,tempType,Fun,level=Level.LOW))
+    # jobs.append(Job(1001,tempType,Fun,level=Level.LOW))
+    # jobs.append(Job(1002,tempType,Fun,level=Level.MEDIUM))
+    # jobs.append(Job(1003,tempType,Fun,level=Level.MEDIUM))
+    jobs.append(Job(1004,tempType,Fun,level=Level.HIGH))
+    jobs.append(Job(1005,tempType,Fun,level=Level.HIGH))
+
+
+    # Schedule(tempType)
