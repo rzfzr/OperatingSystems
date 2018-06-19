@@ -198,11 +198,7 @@ def CheckForks(id):
     else:
         return False, False
 
-
-
-
 if __name__ == '__main__':
-
     forks.append(Fork(0))
     forks.append(Fork(2))
     forks.append(Fork(4))
@@ -221,14 +217,5 @@ if __name__ == '__main__':
     seats[3].phil = Phil(3,Level.HIGH)
     seats[4].phil = Phil(4,Level.HIGH)
 
-    # process = multiprocessing.Process(target=Map, args=())
-    # process.start()
-    
     Thread(target=Map, args=()).start()
-    
     Waiter()
-
-
-    
-    #seats.index(choice),))
-
