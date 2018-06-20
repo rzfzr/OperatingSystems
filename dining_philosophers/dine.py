@@ -63,7 +63,7 @@ class Phil():
 
 
         while self.luck > 0:
-            self.luck=-1
+            self.luck=-1 
             tickets.append(id)
         
     
