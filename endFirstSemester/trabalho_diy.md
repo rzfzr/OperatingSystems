@@ -10,16 +10,24 @@ Analise de qual assunto eh comum para concurso publico
 
 entrega 4/7
 
-Questoes de multipla escolha retiradas do seguinte livro: https://www.amazon.com/Operating-Systems-MCQs-Multiple-Questions-ebook/dp/B01G3WZMLK
+Todas questoes de multipla escolha retiradas do seguinte livro: 
+Operating Systems MCQs: Multiple Choice Questions and Answers (Quiz & Tests with Answer Keys) 
+de Arshad Iqbal
+
 Site do livro: http://www.mcqslearn.com/cs/operating-systems/operating-systems-topics.php
 
-Nao usado, segunda opcao: http://www.siteforinfotech.com/2017/01/mcq-questions-threads-smp-microkernels.html
-
-<!-- Feitas 25 por tem 4 alternativas ao envez de 5 -->
-
-Livros referenciais:
+Livros referenciados de Andrew S Tanenbaum:
     Structured Computer Organization (6th edition) [1]
     Modern Operating Systems (4th edition) [2]
+
+Temas:
+ *  Memory 2, 5, 6, 11, 19
+    Process 16, 17, 18, 20
+    Interrupts 3 ~4, 7, 15
+    I/O  1, 13, 14
+    Multi 9, 12
+    Microkernel 10
+    Scheduler 8
 
 
 1. I/O function allows to exchange data directly between an
@@ -116,7 +124,7 @@ d. Flexible
 Correta = a, Descrito em "introduction to Scheduling" na pagina 150 [2] a multiprogramacao lida com o fato de escalonador dever tratar requsicoes de multiplos usuarios.
 
 
-11. With Microkernel architecture it is possible to handle hardware interrupts as
+10. With Microkernel architecture it is possible to handle hardware interrupts as
 
 a. Application
 b. Information
